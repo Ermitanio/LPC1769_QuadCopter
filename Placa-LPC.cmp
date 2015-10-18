@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 18/09/2015 21:03:04
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 18/10/2015 4:27:19
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B18;
@@ -81,28 +81,63 @@ BeginCmp
 TimeStamp = /55FB1A6C/55FB1B54;
 Reference = FB1;
 ValeurCmp = FILTER;
-IdModule  = inductor_smd_do3316p;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B5A;
 Reference = FB2;
 ValeurCmp = FILTER;
-IdModule  = inductor_smd_do3316p;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B2A;
 Reference = L1;
 ValeurCmp = 330uH;
-IdModule  = inductor_smd_do3316p;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B7E;
 Reference = P1;
 ValeurCmp = 12V;
-IdModule  = pin_strip_1-90;
+IdModule  = pin_strip_2-90;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB1A6C/56234930;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB1A6C/56234921;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB1A6C/5623493F;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB1A6C/5623494E;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FB1A6C/562342D0;
+Reference = P13;
+ValeurCmp = CONN_2;
+IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp
@@ -165,7 +200,7 @@ BeginCmp
 TimeStamp = /55F717AA;
 Reference = X1;
 ValeurCmp = 12MHz;
-IdModule  = crystal_hc-49/smd;
+IdModule  = crystal_hc-49s;
 EndCmp
 
 EndListe
