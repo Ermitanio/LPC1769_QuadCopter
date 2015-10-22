@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:fuente-cache
 LIBS:lm2575-5
 LIBS:nxp_armmcu
+LIBS:ft232bm
 LIBS:Placa-LPC-cache
 EELAYER 27 0
 EELAYER END
@@ -147,10 +148,10 @@ F 3 "" H 5550 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR17
+L +5V #PWR23
 U 1 1 55FB1B48
 P 5250 3100
-F 0 "#PWR17" H 5250 3190 20  0001 C CNN
+F 0 "#PWR23" H 5250 3190 20  0001 C CNN
 F 1 "+5V" H 5250 3190 30  0000 C CNN
 F 2 "" H 5250 3100 60  0000 C CNN
 F 3 "" H 5250 3100 60  0000 C CNN
@@ -158,10 +159,10 @@ F 3 "" H 5250 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR19
+L +3.3V #PWR25
 U 1 1 55FB1B4E
 P 6650 3400
-F 0 "#PWR19" H 6650 3360 30  0001 C CNN
+F 0 "#PWR25" H 6650 3360 30  0001 C CNN
 F 1 "+3.3V" H 6650 3510 30  0000 C CNN
 F 2 "" H 6650 3400 60  0000 C CNN
 F 3 "" H 6650 3400 60  0000 C CNN
@@ -191,10 +192,10 @@ F 3 "~" H 7200 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VADC #PWR20
+L +3.3VADC #PWR26
 U 1 1 55FB1B60
 P 7650 3400
-F 0 "#PWR20" H 7650 3520 20  0001 C CNN
+F 0 "#PWR26" H 7650 3520 20  0001 C CNN
 F 1 "+3.3VADC" H 7650 3490 30  0000 C CNN
 F 2 "" H 7650 3400 60  0000 C CNN
 F 3 "" H 7650 3400 60  0000 C CNN
@@ -224,10 +225,10 @@ F 3 "" H 7900 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
+L GND #PWR24
 U 1 1 55FB1B72
 P 6050 4100
-F 0 "#PWR18" H 6050 4100 30  0001 C CNN
+F 0 "#PWR24" H 6050 4100 30  0001 C CNN
 F 1 "GND" H 6050 4030 30  0001 C CNN
 F 2 "" H 6050 4100 60  0000 C CNN
 F 3 "" H 6050 4100 60  0000 C CNN
@@ -235,10 +236,10 @@ F 3 "" H 6050 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR21
+L GNDA #PWR27
 U 1 1 55FB1B78
 P 7650 4100
-F 0 "#PWR21" H 7650 4100 40  0001 C CNN
+F 0 "#PWR27" H 7650 4100 40  0001 C CNN
 F 1 "GNDA" H 7650 4030 40  0000 C CNN
 F 2 "" H 7650 4100 60  0000 C CNN
 F 3 "" H 7650 4100 60  0000 C CNN
@@ -248,68 +249,14 @@ $EndComp
 $Comp
 L CONN_2 P1
 U 1 1 55FB1B7E
-P 2550 3300
-F 0 "P1" V 2500 3300 40  0000 C CNN
-F 1 "12V" V 2600 3300 40  0000 C CNN
-F 2 "" H 2550 3300 60  0000 C CNN
-F 3 "" H 2550 3300 60  0000 C CNN
-	1    2550 3300
+P 2400 3300
+F 0 "P1" V 2350 3300 40  0000 C CNN
+F 1 "12V" V 2450 3300 40  0000 C CNN
+F 2 "" H 2400 3300 60  0000 C CNN
+F 3 "" H 2400 3300 60  0000 C CNN
+	1    2400 3300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5450 3450 5650 3450
-Wire Wire Line
-	5550 3200 5550 3550
-Connection ~ 5550 3450
-Wire Wire Line
-	4750 3450 4850 3450
-Wire Wire Line
-	4800 3550 4800 3450
-Connection ~ 4800 3450
-Wire Wire Line
-	2900 3200 3250 3200
-Wire Wire Line
-	3000 3200 3000 3300
-Wire Wire Line
-	4750 3200 5550 3200
-Wire Wire Line
-	6050 3750 6050 4100
-Wire Wire Line
-	4500 3950 6850 3950
-Connection ~ 5550 3950
-Wire Wire Line
-	2900 3850 4500 3850
-Wire Wire Line
-	3000 3700 3000 3850
-Connection ~ 3750 3850
-Wire Wire Line
-	4500 3850 4500 3950
-Connection ~ 4800 3950
-Connection ~ 3900 3850
-Wire Wire Line
-	6650 3950 6650 3900
-Connection ~ 6050 3950
-Wire Wire Line
-	7550 3450 7800 3450
-Wire Wire Line
-	7650 3400 7650 3500
-Connection ~ 7650 3450
-Connection ~ 6650 3950
-Connection ~ 3000 3200
-Wire Wire Line
-	2900 3000 2900 3850
-Connection ~ 3000 3850
-Wire Wire Line
-	5250 3100 5250 3200
-Connection ~ 5250 3200
-Wire Wire Line
-	6450 3450 6850 3450
-Wire Wire Line
-	6650 3400 6650 3500
-Connection ~ 6650 3450
-Wire Wire Line
-	7650 3900 7650 4100
-Connection ~ 7650 3950
 $Comp
 L C C4
 U 1 1 55FB1BA6
@@ -321,8 +268,6 @@ F 3 "~" H 7650 3700 60  0000 C CNN
 	1    7650 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7550 3950 7900 3950
 $Comp
 L PWR_FLAG #FLG1
 U 1 1 55FB1BAD
@@ -334,7 +279,6 @@ F 3 "" H 2900 3000 60  0000 C CNN
 	1    2900 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2900 3400
 $Comp
 L CONN_2 P13
 U 1 1 562342D0
@@ -346,8 +290,6 @@ F 3 "" H 4950 2850 60  0000 C CNN
 	1    4950 2850
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4850 3200
-Connection ~ 5050 3200
 $Comp
 L CONN_4 P3
 U 1 1 56234921
@@ -392,6 +334,72 @@ F 3 "" H 3550 4700 60  0000 C CNN
 	1    3550 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L +12V #PWR22
+U 1 1 56294EFB
+P 3300 3000
+F 0 "#PWR22" H 3300 2950 20  0001 C CNN
+F 1 "+12V" H 3300 3100 30  0000 C CNN
+F 2 "" H 3300 3000 60  0000 C CNN
+F 3 "" H 3300 3000 60  0000 C CNN
+	1    3300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3450 5650 3450
+Wire Wire Line
+	5550 3200 5550 3550
+Connection ~ 5550 3450
+Wire Wire Line
+	4750 3450 4850 3450
+Wire Wire Line
+	4800 3550 4800 3450
+Connection ~ 4800 3450
+Wire Wire Line
+	3000 3200 3000 3300
+Wire Wire Line
+	4750 3200 5550 3200
+Wire Wire Line
+	6050 3750 6050 4100
+Wire Wire Line
+	4500 3950 6850 3950
+Connection ~ 5550 3950
+Wire Wire Line
+	2900 3850 4500 3850
+Wire Wire Line
+	3000 3700 3000 3850
+Connection ~ 3750 3850
+Wire Wire Line
+	4500 3850 4500 3950
+Connection ~ 4800 3950
+Connection ~ 3900 3850
+Wire Wire Line
+	6650 3950 6650 3900
+Connection ~ 6050 3950
+Wire Wire Line
+	7550 3450 7800 3450
+Wire Wire Line
+	7650 3400 7650 3500
+Connection ~ 7650 3450
+Connection ~ 6650 3950
+Connection ~ 3000 3200
+Connection ~ 3000 3850
+Wire Wire Line
+	5250 3100 5250 3200
+Connection ~ 5250 3200
+Wire Wire Line
+	6450 3450 6850 3450
+Wire Wire Line
+	6650 3400 6650 3500
+Connection ~ 6650 3450
+Wire Wire Line
+	7650 3900 7650 4100
+Connection ~ 7650 3950
+Wire Wire Line
+	7550 3950 7900 3950
+Connection ~ 2900 3400
+Connection ~ 4850 3200
+Connection ~ 5050 3200
 Wire Wire Line
 	3200 3850 3200 4850
 Connection ~ 3200 4750
@@ -412,4 +420,20 @@ Connection ~ 3200 2400
 Connection ~ 3200 2500
 Connection ~ 3200 3200
 Connection ~ 3200 2600
+Wire Wire Line
+	3300 3000 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	2800 3200 2800 3400
+Wire Wire Line
+	2800 3400 2750 3400
+Wire Wire Line
+	2900 3000 2900 3850
+Wire Wire Line
+	2750 3300 2750 3200
+Wire Wire Line
+	2800 3200 3250 3200
+Wire Wire Line
+	2750 3300 2900 3300
+Connection ~ 2900 3300
 $EndSCHEMATC
