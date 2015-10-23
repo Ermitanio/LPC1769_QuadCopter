@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 22/10/2015 19:15:04
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/10/2015 11:35:51
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B18;
@@ -295,6 +295,20 @@ IdModule  = r_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /562A479E;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /562A47AD;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5628CAD4;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -319,7 +333,7 @@ BeginCmp
 TimeStamp = /55F71163;
 Reference = ULPC1;
 ValeurCmp = LPC1769FBD100;
-IdModule  = TQFP_100;
+IdModule  = TQFP_100_lpc;
 EndCmp
 
 BeginCmp

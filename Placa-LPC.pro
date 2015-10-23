@@ -1,13 +1,11 @@
-update=22/10/2015 17:53:55
+update=23/10/2015 12:01:32
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -102,3 +100,5 @@ LibName27=valves
 LibName28=D:/Modelos KiCad/mod_switch/w_switch
 LibName29=D:/Modelos KiCad/mod_smd_diode/w_smd_diode
 LibName30=D:/Modelos KiCad/mod_conn_pt-1,5/w_conn_pt-1,5
+[general]
+version=1
