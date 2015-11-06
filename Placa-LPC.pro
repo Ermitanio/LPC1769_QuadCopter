@@ -1,6 +1,6 @@
-update=23/10/2015 12:01:32
+update=31/10/2015 14:38:12
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -49,6 +49,8 @@ LibName31=fuente-cache
 LibName32=lm2575-5
 LibName33=nxp_armmcu
 LibName34=D:/Modelos KiCad/ft232bm
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=Placa-LPC.net
@@ -100,5 +102,4 @@ LibName27=valves
 LibName28=D:/Modelos KiCad/mod_switch/w_switch
 LibName29=D:/Modelos KiCad/mod_smd_diode/w_smd_diode
 LibName30=D:/Modelos KiCad/mod_conn_pt-1,5/w_conn_pt-1,5
-[general]
-version=1
+LibName31=D:/Modelos KiCad/mod_to/w_to

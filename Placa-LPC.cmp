@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/10/2015 11:35:51
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 31/10/2015 14:39:23
 
 BeginCmp
 TimeStamp = /55FB1A6C/55FB1B18;
@@ -319,7 +319,7 @@ BeginCmp
 TimeStamp = /55FB1A6C/55FB1B12;
 Reference = U1;
 ValeurCmp = LM2575-5.0;
-IdModule  = d-pak-5;
+IdModule  = to220-5-horiz;
 EndCmp
 
 BeginCmp
